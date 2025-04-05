@@ -16,4 +16,13 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.28.0"
+anchor-lang = "0.29.0"
+
+[profile.release]
+overflow-checks = true
+strip = "debuginfo"
+opt-level = "z"
+lto = true
+codegen-units = 1
+debug = false
+panic = "abort"

@@ -2,7 +2,8 @@
 
 use anchor_lang::prelude::*;
 
-declare_id!("8h4AB1cYMxUjQEy8LgojMjVUG2j2P39t3z79e2S5cJdV");
+declare_id!("2wTTn3KN9fabVPogcwaSF8RoZobxcuyMBBSV9jGhWN6s");
+
 
 #[program]
 pub mod counter_dapp {
